@@ -11,7 +11,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "My agent ticked the task off as done, sent me a neat report on how done it was, and then, a bit later, actually opened the task.";
+  "My agent marked the task complete, sent me a tidy report on how complete it was, and then quietly went and read the task for the first time.";
 
 if (
   line.length < 1 ||
